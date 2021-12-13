@@ -55,10 +55,10 @@ df.plot(kind='line',x='year',y='museum', color='green', ax=ax)
 plt.show()
 
 
-df.plot(kind='scatter',x='year',y='musical',color='red') #년도별 뮤지컬 산포도로 그려보기
+df.plot(kind='scatter',x='year',y='museum',color='red') #년도별 박물관관람률 산포도로 그려보기
 plt.show()
 
-df.plot(kind='bar',x='year',y='movie') #년도별 영화관람률 막대그래프로 그려보기 
+df.plot(kind='bar',x='year',y='concert') #년도별 음악회관람률 막대그래프로 그려보기 
 plt.show()
 
 
